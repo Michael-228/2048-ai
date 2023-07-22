@@ -6,7 +6,7 @@ use itertools::Itertools;
 use rayon::prelude::*;
 use std::sync::Mutex;
 
-const MIN_PROBABILITY: f32 = 0.001;
+const MIN_PROBABILITY: f32 = 0.0001;
 const TOTAL_RUNS: usize = 100;
 
 fn main() {
