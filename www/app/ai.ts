@@ -17,9 +17,10 @@ const StrengthMap: { [index: number]: number } = {
   8: 0.0003,
   9: 0.0002,
   10: 0.0001
+  11: 0.00001
 };
 const MinStrength = 1;
-const MaxStrength = 10;
+const MaxStrength = 11;
 
 export default class Ai {
   private readonly worker: PromiseWorker;
